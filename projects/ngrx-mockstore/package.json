@@ -18,5 +18,9 @@
   "dependencies": {
     "rxjs": "~6.3.3"
   },
-  "homepage": "https://ngrx.io/guide/store/testing"
+  "homepage": "https://ngrx.io/guide/store/testing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtcrowson/NgRx-MockStore"
+  }
 }
