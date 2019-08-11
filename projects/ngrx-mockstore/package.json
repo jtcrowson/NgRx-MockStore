@@ -1,7 +1,7 @@
 {
   "name": "ngrx-mockstore",
-  "version": "0.0.1",
-  "description": "The MockStore library exported from @ngrx/store/testing, made available for @ngrx/store <7.0.0",
+  "version": "0.0.1-beta.0",
+  "description": "The MockStore library exported from @ngrx/store/testing, made available in a standalone package to accommodate @ngrx/store v6 and earlier.  Please note that this does not include the mock selector feature added in NgRx v8.",
   "license": "MIT",
   "author": "John Crowson <jtcrowson@gmail.com>",
   "keywords": [
@@ -13,6 +13,10 @@
   "peerDependencies": {
     "@angular/common": ">=4.0.0",
     "@angular/core": ">=4.0.0",
-    "@ngrx/store": ">=4.0.0 <7.0.0"
-  }
+    "@ngrx/store": ">=4.0.0"
+  },
+  "dependencies": {
+    "rxjs": "~6.3.3"
+  },
+  "homepage": "https://ngrx.io/guide/store/testing"
 }
