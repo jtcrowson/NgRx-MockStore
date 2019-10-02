@@ -5,3 +5,7 @@ The MockStore library from @ngrx/store/testing, made available in a standalone p
 ## Build
 
 Run `ng build --project=ngrx-mockstore` to build the library.
+
+## Usage
+
+Install as a development dependency using npm: `npm install --save-dev ngrx-mockstore`
